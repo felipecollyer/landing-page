@@ -1,0 +1,141 @@
+@media (max-width: 1200px) {
+  .container {
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .btn {
+    margin: 50px auto 0 auto;
+  }
+
+  /* MAIN */
+  main .container {
+    height: auto;
+  }
+
+  main .mac img {
+    position: static;
+    bottom: 0;
+    left: 0px;
+  }
+
+  main .especializacoes {
+    display: grid;
+    grid-template-areas:
+      "mac mac mac"
+      "flex flex flex";
+  }
+
+  .mac {
+    grid-area: mac;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  main .mac img {
+    width: 100%;
+  }
+
+  .flex {
+    grid-area: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .flex {
+    margin-top: 10px;
+  }
+  .flex .informacaoes {
+    margin: 0px 0;
+  }
+
+  main .title h3 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  main .title p {
+    width: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 740px) {
+  section {
+    margin-top: 0px;
+  }
+
+  .container {
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  .subText {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.411);
+  }
+  .btn {
+    margin: 50px auto 0 auto;
+    width: 100%;
+  }
+
+  .btn li {
+    margin: 0 auto;
+  }
+  /* WORKFLOW EMPRESAS*/
+
+  section .empresas {
+    height: 205px;
+    margin-top: 10px;
+    margin: 5px 10px;
+  }
+}
+
+@media (max-width: 560px) {
+  /* main */
+  .flex {
+    grid-area: flex;
+    display: grid;
+    grid-template-areas:
+      "info1 info2"
+      "info3 info3";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .flex .informacaoes {
+    margin-bottom: 50px;
+  }
+  .quebra {
+    grid-area: info3;
+  }
+
+  /* NAV */
+
+  footer .container {
+    display: grid;
+    grid-template-areas:
+      "logo"
+      "nav"
+      "icons";
+    grid-template-columns: auto;
+    margin: 0 auto;
+  }
+  footer li,
+  .icons {
+    text-align: center;
+  }
+  footer nav ul {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px 0px;
+  }
+
+  .btn li {
+    margin: 10px auto 0 auto;
+    width: auto;
+  }
+}
