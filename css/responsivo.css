@@ -3,7 +3,6 @@
     padding: 20px;
   }
 
-
   /* MAIN */
   main .container {
     height: auto;
@@ -15,7 +14,7 @@
     left: 0px;
   }
 
-  main .especializacoes {
+  main .specializations {
     display: grid;
     grid-template-areas:
       "mac mac mac"
@@ -42,15 +41,15 @@
   .flex {
     margin-top: 10px;
   }
-  .flex .informacaoes {
+  .flex .information {
     margin: 0px 0;
   }
 
-  main  h3 {
+  main h3 {
     text-align: center;
   }
 
-  main  p {
+  main p {
     width: auto;
     text-align: center;
   }
@@ -79,9 +78,9 @@
   .btn li {
     margin: 0 auto;
   }
-  /* WORKFLOW EMPRESAS*/
+  /* WORKFLOW companies*/
 
-  section .empresas {
+  section .companies {
     height: 205px;
     margin-top: 10px;
     margin: 5px 10px;
@@ -99,10 +98,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
-  .flex .informacaoes {
+  .flex .information {
     margin-bottom: 50px;
   }
-  .quebra {
+  .break {
     grid-area: info3;
   }
 

@@ -36,7 +36,7 @@ body {
 }
 
 /* GERAL */
-.text-subText-btn {
+.containerText{
   display: block;
   text-align: center;
   margin: 30px 0;
@@ -109,7 +109,7 @@ main .container {
   overflow-x: hidden;
 }
 
-main .especializacoes {
+main .specializations {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -124,7 +124,7 @@ main .mac img {
   padding-top: 50px;
 }
 
-.flex .informacaoes {
+.flex .information {
   margin: 50px 0;
 }
 
@@ -156,10 +156,10 @@ section {
   margin: 0 auto;
 }
 
-/* SECTION PRODUTIVIDADE */
+/* SECTION productivity */
 
-section .beneficios,
-.empresas {
+section .benefits,
+.companies {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -190,7 +190,7 @@ section .workflow p {
   color: var(--sub-text);
 }
 
-section .empresas img {
+section .companies img {
   height: 35px;
   margin: 5px 10px;
 }
